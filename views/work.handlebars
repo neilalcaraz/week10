@@ -1,0 +1,9 @@
+<div class="container text-center">
+<div><h3><a href="{{work.link}}">{{ work.title}}</a></h3></div>
+<div><img src="{{work.image}}"/></div>
+</div>
+{{# if nextPage }}
+<a href="/works/{{nextPage}}">Next</a>
+{{/if}}
+
+{{> advert }}
